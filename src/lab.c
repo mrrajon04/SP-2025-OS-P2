@@ -7,6 +7,7 @@
 #include <pwd.h>
 #include <errno.h>
 #include <ctype.h>
+#include <signal.h> // Include signal.h for kill and SIGTTIN
 
 #define ARG_MAX sysconf(_SC_ARG_MAX)
 
