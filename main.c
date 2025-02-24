@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
     struct shell sh;
     sh_init(&sh);
     
-    // Setup signal handlers to ignore specific signals as required task 8
+    // Setup signal handlers to ignore specific signals as required in task 8
     setup_signal_handlers();
     
     char *line = (char *)NULL;
